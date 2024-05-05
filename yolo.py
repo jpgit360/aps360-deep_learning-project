@@ -21,7 +21,7 @@ for box in result[0].boxes:
 #
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="3GhnmnPcDkTnTKauMDOI")
+rf = Roboflow(api_key="")
 project = rf.workspace("seb-bulba").project("roadsigns_2")
 version = project.version(2)
 dataset = version.download("yolov8")
